@@ -12,6 +12,7 @@
     --second-btn-color: #ffffff;
     --basic-color: #434455;
     --card-set-gap: 24px;
+    --text-footer-sub: #8e8f99;
 }
 
 body {
@@ -956,7 +957,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    color: var(--text-footer-sub);
     /* padding: 8px 16px; */
     margin-bottom: 4px;
 }

@@ -963,9 +963,9 @@ img {
 }
 
 .input-label span {
-    display: block;
+    /* display: block;
     margin-bottom: 4px;
-    margin-top: 4px;
+    margin-top: 4px; */
 }
 
 .modal-comment {

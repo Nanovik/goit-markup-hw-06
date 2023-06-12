@@ -712,6 +712,7 @@ img {
 }
 
 .footer-icon {
+    margin-left: 16px;
     fill: var(--first-btn-bg-color);
 }
 
@@ -753,7 +754,7 @@ img {
     padding: 8px 16px;
 
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     display: flex;
     /* align-items: center; */
     letter-spacing: 0.04em;
@@ -772,7 +773,7 @@ img {
 
 .footer-sub-btn {
     display: flex;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     flex-direction: row;
     justify-content: center;
@@ -789,6 +790,8 @@ img {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+
+    cursor: pointer;
     /* flex: none;
     order: 0;
     flex-grow: 0; */

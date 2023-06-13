@@ -722,6 +722,11 @@ img {
     fill: var(--first-btn-bg-color);
 }
 
+.footer-icon-subscribe {
+    margin-left: 16px;
+    fill: var(--first-btn-bg-color);
+}
+
 .footer-subscribe {
     padding: 0;
     margin: 0;

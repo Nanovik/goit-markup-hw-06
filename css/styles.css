@@ -1057,6 +1057,10 @@ img {
     border-color: #4D5AE5;
 }
 
+.modal-checkbox-link {
+    margin-left: 4px;
+}
+
 /* ---------------Button----------------- */
 
 .modal-send-btn {

@@ -631,13 +631,18 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
+    /* gap: 120px; */
 }
 
 .footer-blok {
     padding: 0;
     margin: 0;
     margin-right: 120px;
-    /* gap: 120px; */
+}
+
+.footer-media {
+    padding: 0;
+    margin: 0;
 }
 
 .footer-logo {
@@ -713,18 +718,15 @@ img {
 }
 
 .footer-icon {
-    margin-left: 16px;
+    /* margin-left: 16px; */
     fill: var(--first-btn-bg-color);
 }
 
 .footer-subscribe {
-    /* display: flex; */
-    margin-right: 0;
-    /* padding: 0; */
-    /* margin: 0; */
-    /* margin-left: 120px; */
+    padding: 0;
+    margin: 0;
     /* align-items: right; */
-    justify-content: right;
+    /* justify-content: right; */
 }
 
 .footer-form-subscribe {
@@ -899,7 +901,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 16px;
-    margin-top: 48px;
+    /* margin-top: 48px; */
 }
 
 .modal-field {
@@ -914,21 +916,26 @@ img {
 .modal-input {
     width: 100%;
     height: 40px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
     font-size: 16px;
     /* color: #404bbf; */
     outline: transparent;
-    margin-top: 4px;
-    margin-bottom: 8px;
+    /* margin-top: 4px; */
+    /* margin-bottom: 8px; */
 }
 
 .modal-input:focus {
+    /* border-color: #404bbf; */
+    border: 1px solid #404bbf;
+}
+
+.modal-comment:focus {
+    border: none;
     border-color: #404bbf;
-    /* border: 1px solid #404bbf; */
-    
+    border: 1px solid #404bbf;
 }
 
 .modal-input:focus+.modal-icon {
@@ -962,11 +969,11 @@ img {
     margin-bottom: 4px;
 }
 
-.input-label span {
-    /* display: block;
+/* .input-label span {
+    display: block;
     margin-bottom: 4px;
-    margin-top: 4px; */
-}
+    margin-top: 4px;
+} */
 
 .modal-comment {
     width: 100%;
@@ -987,6 +994,7 @@ img {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     margin-bottom: 24px;
+    margin-top: 16px;
     
 
     /* flex: none;

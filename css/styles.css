@@ -948,8 +948,8 @@ img {
 
 .modal-comment:focus {
     border: none;
-    border-color: #404bbf;
-    border: 1px solid #404bbf;
+    border-color: #4D5AE5;
+    /* border: 1px solid #404bbf; */
 }
 
 .modal-input:focus+.modal-icon {
@@ -997,6 +997,13 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     resize: none;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-text {

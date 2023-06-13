@@ -1037,12 +1037,11 @@ img {
 
 .check-text-span {
     display: inline-flex;
-    width: 16;
+    width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
-    /* display: block; */
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -1056,7 +1055,10 @@ img {
 }
 
 .check-text:focus+.check-text-span {
-    border-color: var(--second-btn-bg-color);
+    /* border-color: var(--second-btn-bg-color); */
+    background-color: var(--second-btn-bg-color);
+    border: none;
+    fill: var(--first-btn-bg-color);
 }
 
 .modal-checkbox-link {

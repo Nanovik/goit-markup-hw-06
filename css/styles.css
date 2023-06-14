@@ -1053,8 +1053,8 @@ img {
 
 .check-icon {
     border: none;
-    fill: var(--first-btn-bg-color);
-    margin: -1px;
+    /* fill: var(--first-btn-bg-color); */
+    /* margin: -1px; */
 }
 
 .modal-checkbox-link {
